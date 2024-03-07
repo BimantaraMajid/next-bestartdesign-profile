@@ -24,8 +24,8 @@ export default function RootLayout({ children }) {
           <div className="py-6 px-4 flex justify-between bg-white max-h-20">
             <Link href="/">
               <img
-                className="w-full object-cover max-w-28"
-                src="https://assets-global.website-files.com/63d0f93b8842ec945ab130c6/64185cc31e8137d828ab7613_img-logo-sibambo.png"
+                className="w-full h-full object-cover w-28"
+                src="https://i.ibb.co/sb79pFY/IMG-2205.jpg"
                 alt="logo-header"
               />
             </Link>
@@ -112,7 +112,7 @@ export default function RootLayout({ children }) {
             <Link href="/">
               <img
                 className="w-full object-cover max-w-28"
-                src="https://assets-global.website-files.com/63d0f93b8842ec945ab130c6/64185cc31e8137d828ab7613_img-logo-sibambo.png"
+                src="https://i.ibb.co/sb79pFY/IMG-2205.jpg"
                 alt="logo-header"
               />
             </Link>
