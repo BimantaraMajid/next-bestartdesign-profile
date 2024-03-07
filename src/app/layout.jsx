@@ -88,7 +88,7 @@ export default function RootLayout({ children }) {
         <main className="mt-20 min-h-screen">{children}</main>
 
         <footer className="mt-20">
-          <div className="aspect-[5/3] relative">
+          <div className="aspect-[5/3] relative -z-10">
             <img
               className="w-full h-full object-cover"
               src="https://assets-global.website-files.com/63d0f93b8842ec945ab130c6/642865468fbcbe36efc5769b_img-bg_banner.webp"
@@ -147,7 +147,7 @@ export default function RootLayout({ children }) {
               <span className="font-bold">PHONE NUMBER</span>
               <span>
                 <a href="tel:081xxxxxxx">0812xxxxxxx</a>
-                </span>
+              </span>
             </div>
             <div className="flex flex-col">
               <span className="font-bold">SOCIAL MEDIA</span>

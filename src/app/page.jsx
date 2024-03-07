@@ -214,7 +214,7 @@ export default function Home() {
         .fill(0)
         .map((_, index) => (
           <section className="px-4  flex flex-col gap-4" key={index}>
-            <div className="flex flex-col w-full aspect-[5/3] relative">
+            <div className="flex flex-col w-full aspect-[5/3] relative -z-10">
               <img
                 className="w-full h-full object-cover "
                 src="https://assets-global.website-files.com/647861b1c7b7fd5334ac64a3/65e18c346d15723b992a8a1c_Copacious.webp"
