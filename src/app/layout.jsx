@@ -18,13 +18,13 @@ export default function RootLayout({ children }) {
 
   return (
     <html lang="en">
-      <div className="fixed bottom-5 right-5">
-        <BackToTopButton />
-      </div>
       <head>
         <title>BestArt Design</title>
       </head>
       <body className={inter.className}>
+        <div className="fixed bottom-5 right-5">
+          <BackToTopButton />
+        </div>
         <header className="fixed top-0 left-0 right-0 max-h-screen">
           <div className="flex items-stretch justify-between h-20 bg-white">
             <Link href="/" className="py-6 pl-4">

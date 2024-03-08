@@ -28,11 +28,9 @@ const BackToTopButton = () => {
   return (
     <>
       {isVisible && (
-        <div className="flex p-1 bg-orange-200 rounded-full aspect-square scroll-to-top ">
-          <div onClick={scrollToTop}>
+          <div className="flex p-1 bg-orange-200 rounded-full aspect-square scroll-to-top " onClick={scrollToTop}>
             <span className="material-icons">arrow_upward</span>
           </div>
-        </div>
       )}
     </>
   );
