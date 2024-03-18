@@ -34,14 +34,24 @@ export default function RootLayout({ children }) {
                 alt="logo-header"
               />
             </Link>
+            <div className="flex items-center gap-10">
+              
+            <div className="hidden text-xs uppercase md:block">
+              
+              <span className="block text-gray-400"> ada pertanyaan?</span>
+              <div className="block font-semibold">
+                Hubungi kami
+              </div>
+            </div>
             <button
               className="p-4 cursor-pointer"
               onClick={() => setIsMenuMobileOpen(!isMenuMobileOpen)}
-            >
-              <span className="material-icons material-icons-outlined">
+              >
+              <span className="!text-4xl material-icons">
                 drag_handle
               </span>
             </button>
+              </div>
           </div>
 
           {isMenuMobileOpen && (
@@ -166,7 +176,9 @@ export default function RootLayout({ children }) {
           </div>
           <div className="mt-5 bg-gray-50">
             <p className="text-center">
+              <small>
               © 2021 BestArt Design. All rights reserved
+              </small>
             </p>
           </div>
         </footer>
